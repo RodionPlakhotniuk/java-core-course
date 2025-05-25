@@ -1,8 +1,9 @@
 package com.example;
 
-public class Main{
-    public static void main(String[] args) {
 
-        System.out.println("I LOVE JAVA");
+public class Main {
+    public static void main(String[] args) {
+        String password = PasswordGenerator.generatePassword(12);
+        System.out.println("Згенерований пароль: " + password);
     }
 }
