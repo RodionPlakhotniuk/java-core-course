@@ -1,0 +1,49 @@
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+log.txt
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+out/
+# Іноді буває у проєктах
+*.ipr
+
+### VS Code ###
+.vscode/
+
+### OS-specific ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+
+### Temporary files ###
+*.class
+*.swp
+*~
+
+### NetBeans (якщо раптом хтось відкриє там) ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Eclipse ###
+.project
+.classpath
+.cproject
+.settings/
+bin/
